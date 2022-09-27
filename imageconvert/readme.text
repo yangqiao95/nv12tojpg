@@ -1,0 +1,23 @@
+
+需要将文件放在opencv 里面再编译
+编译  make
+
+./imageconvert  执行提示
+ImageConvert:ImageConvert14
+ImageConvert:Init38
+Usage*******************************************************************
+--width=
+--height=
+--format=
+--filename=
+--count=
+--frame=   which frame need to convert
+example: 
+          imageconvert --width=1920 --height=1080 --format=nv12 --filename=test.nv12
+          imageconvert --width=1920 --height=1080 --format=nv12 --count=100 --filename=test.raw
+usage********************************************************************
+
+
+
+示例
+./imageconvert --width=1920 --height=1080 --format=nv12 --filename=picture1.nv12
